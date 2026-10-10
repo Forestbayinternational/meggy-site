@@ -1,0 +1,6 @@
+:root{--shell:#FBF8F3;--ink:#2B2622;--soft:#6F665E;--yolk:#E9B44C;--rust:#D9773F;--teal:#8FB8AE}
+*{box-sizing:border-box}body{margin:0;background:var(--shell);color:var(--ink);font:17px/1.6 "Jost",system-ui,sans-serif}
+main{max-width:680px;margin:0 auto;padding:56px 20px 80px}h1{font-family:"Bodoni Moda",Georgia,serif;font-weight:500;font-size:64px;line-height:1;letter-spacing:-2px;margin:0 0 12px}
+h2{font-family:"Bodoni Moda",Georgia,serif;font-weight:500;font-size:26px;margin:40px 0 8px}p,li{color:var(--ink)}.soft{color:var(--soft)}
+a{color:var(--ink)}.bar{height:10px;background:linear-gradient(90deg,var(--teal) 0 25%,var(--rust) 25% 50%,#B9B46C 50% 75%,var(--yolk) 75%)}
+nav{margin-top:28px;display:flex;gap:20px}footer{margin-top:56px;font-size:14px}
